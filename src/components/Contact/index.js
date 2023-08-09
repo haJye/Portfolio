@@ -4,7 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState, useRef  } from 'react'
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
-import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import { MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
 
 const Contact = () => {
   const position = [40.36539, 49.9654]
