@@ -4,7 +4,7 @@ import LogoA from '../../assets/images/logo-a.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faInstagram, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -30,6 +30,11 @@ const Sidebar = () => (
         <li>
             <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/hajy/'>
                 <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
+            </a>
+        </li>
+        <li>
+            <a target='_blank' rel='noreferrer' href='https://api.whatsapp.com/send/?phone=994554587490'>
+                <FontAwesomeIcon icon={faWhatsapp} color='#4d4d4e' />
             </a>
         </li>
         <li>
